@@ -1,0 +1,8 @@
+<a href="/tracks/new">add track</a>
+<div>
+  <% @tracks.each do |t| %>
+    <p><%= t.title %></p>
+    <p><%= t.author %></p>
+    <p><%= t.url %></p>
+  <% end %>
+</div>
